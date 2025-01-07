@@ -5,4 +5,9 @@ public class Calculator {
         System.out.println("Welcome to the Calculator!");
 
     }
+    
+    public static int add(int a, int b) {
+        return a + b;
+    }
+
 }
