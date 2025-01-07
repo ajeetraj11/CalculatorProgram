@@ -18,4 +18,9 @@ public class Calculator {
         return a * b;
     }
 
+    public static double division(int a, int b) {
+        if(b==0)return 0;
+        return (double) a / b;
+    }
+
 }
